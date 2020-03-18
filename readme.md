@@ -1,4 +1,6 @@
 ## Uitleg
+> Opgelet: Probeer de opgave eerst zelf voor de opgave over te nemen!
+
 Deze oplossingen zijn alleen voor bepaalde oefeningen het is mogelijk dat je andere ofeningen krijgt of deze in een andere volgorde krijgt.
 
 Naast elke opgave staat tussen haakjes () het oefeningnummer.

@@ -66,32 +66,39 @@ Ook mannelijke spelers zonder huidige functie moeten getoond worden.
 Sorteer op spelersnr.
 ### Oplossing
 ```
-
+SELECT naam, geslacht, functie
+FROM spelers
+LEFT OUTER JOIN bestuursleden ON bestuursleden.spelersnr = spelers.spelersnr AND bestuursleden.eind_datum IS NULL
+WHERE naam ilike '%e%e%' AND geslacht = 'M'
+order by spelers.spelersnr
 ```
 
-## Opgave 7
-
+## Opgave 7 (51)
+Geef een alfabetisch gesorteerde lijst van de namen van alle leden van de tennisvereniging die ofwel een recreatiespeler zijn (speelt geen wedstrijden) ofwel een wedstrijdspeler die nog geen wedstrijden gespeeld heeft.
 ### Oplossing
 ```
 
 ```
 
-## Opgave 8
-
+## Opgave 8 (52)
+Geef voor alle huidige bestuurleden hun functie en de lijst van boetes die voor hen werd betaald.
+Omdat je dit wil vergelijken met de boetebedragen die betaald werden voor spelers die niet in het bestuur zitten,
+wil je deze boetebedragen ook opnemen in de tweede kolom van je resultaat. Sorteer je antwoord eerst op functie en daarna op het boetebedrag.
 ### Oplossing
 ```
 
 ```
 
-## Opgave 9
-
+## Opgave 9 (53)
+Geef een aflopend gesorteerde lijst van de nummers van alle spelers waarvoor nog geen boete werd betaald en die nog nooit in het bestuur van de tennisvereniging hebben gezeten.
 ### Oplossing
 ```
 
 ```
 
-## Opgave 10
-
+## Opgave 10 (204)
+Geef een lijst van alle spelers die nog geen wedstrijd gespeeld hebben.
+Sorteer op spelersnr
 ### Oplossing
 ```
 

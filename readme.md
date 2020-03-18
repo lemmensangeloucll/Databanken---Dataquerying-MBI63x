@@ -1,5 +1,5 @@
 ## Uitleg
-> Opgelet: Probeer de opgave eerst zelf voor de opgave over te nemen!
+> Opgelet: Probeer de opgave eerst zelf alvorens de oplossing te bekijken!
 
 Deze oplossingen zijn alleen voor bepaalde oefeningen het is mogelijk dat je andere ofeningen krijgt of deze in een andere volgorde krijgt.
 

@@ -47,15 +47,23 @@ Sorteer op bestuurslidfunctie (oplopend), verschil (aflopend), spelersnr (oplope
 
 ```
 
-## Opgave 5
-
+## Opgave 5 (37)
+Geef voor alle vrouwelijke spelers die in Den Haag, Zoetermeer of Leiden wonen
+het spelersnummer, hun woonplaats en een lijst van de teams waarvoor ze ooit gespeeld hebben.
+Sorteer op spelersnr
 ### Oplossing
 ```
-
+select spelersnr, plaats, teamnr
+from spelers
+left outer join wedstrijden using(spelersnr)
+where plaats in ('Den Haag', 'Zoetermeer', 'Leiden') and geslacht = 'V'
+order by spelersnr
 ```
 
-## Opgave 6
-
+## Opgave 6 (39)
+Geef voor elke mannelijke speler wiens naam minstens 2 keer de letter 'e' bevat een lijst van de functies die hij op dit moment uitoefent.
+Ook mannelijke spelers zonder huidige functie moeten getoond worden.
+Sorteer op spelersnr.
 ### Oplossing
 ```
 

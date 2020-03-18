@@ -86,14 +86,22 @@ Omdat je dit wil vergelijken met de boetebedragen die betaald werden voor speler
 wil je deze boetebedragen ook opnemen in de tweede kolom van je resultaat. Sorteer je antwoord eerst op functie en daarna op het boetebedrag.
 ### Oplossing
 ```
-
+select functie, bedrag
+from boetes
+full outer join bestuursleden ON bestuursleden.spelersnr = boetes.spelersnr and eind_datum is NULL
+order by functie, bedrag
 ```
 
 ## Opgave 9 (53)
 Geef een aflopend gesorteerde lijst van de nummers van alle spelers waarvoor nog geen boete werd betaald en die nog nooit in het bestuur van de tennisvereniging hebben gezeten.
 ### Oplossing
 ```
-
+select s.spelersnr
+from spelers as s
+left outer join boetes as b using(spelersnr)
+left outer join bestuursleden as bs using(spelersnr)
+where b.spelersnr is NULL and bs.spelersnr IS NULL
+order by s.spelersnr DESC
 ```
 
 ## Opgave 10 (204)

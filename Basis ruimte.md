@@ -24,6 +24,7 @@ order by diameter DESC, objectnaam ASC
 
 
 ## Opgave
+Geef het geboortejaar van de jongste klant
 ### Oplossing
 ```
 ```
@@ -76,5 +77,5 @@ order by diameter DESC, objectnaam ASC
 ```
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1MDc1MTE3LDg2Nzc3MjAzNV19
+eyJoaXN0b3J5IjpbLTEwNjc2NzE0MzIsODY3NzcyMDM1XX0=
 -->

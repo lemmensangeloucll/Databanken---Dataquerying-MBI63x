@@ -16,7 +16,10 @@ Geef alle hemelobjecten weer met een diameter groter dan 50 en kleiner dan 10000
 Sorteer eerst aflopend op diameter en dan alfabetisch op naam
 ### Oplossing
 ```
-
+select objectnaam, diameter
+from hemelobjecten
+where diameter > 50 and diameter < 10000
+order by diameter DESC, objectnaam ASC
 ```
 
 
@@ -73,5 +76,5 @@ Sorteer eerst aflopend op diameter en dan alfabetisch op naam
 ```
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY3NzcyMDM1XX0=
+eyJoaXN0b3J5IjpbNzc1MDc1MTE3LDg2Nzc3MjAzNV19
 -->

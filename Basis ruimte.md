@@ -36,13 +36,16 @@ from klanten
 Geef het bedrag van de duurste reis als "duurste"
 ### Oplossing
 ```
-
+select max(prijs) as duurste
+from reizen
 ```
 
 
 ## Opgave
+Geef van alle reizen die langer dan 400 dagen duurden, een lijst van deelnemers. Output is reisnr, klantnr. Sorteer eerst op reisduur en dan op klantnr
 ### Oplossing
 ```
+
 ```
 
 
@@ -81,5 +84,5 @@ Geef het bedrag van de duurste reis als "duurste"
 ```
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTQ3MDA2Nyw4Njc3NzIwMzVdfQ==
+eyJoaXN0b3J5IjpbLTMxNTczMDY5OSw4Njc3NzIwMzVdfQ==
 -->

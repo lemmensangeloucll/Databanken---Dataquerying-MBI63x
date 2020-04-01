@@ -27,6 +27,8 @@ order by diameter DESC, objectnaam ASC
 Geef het geboortejaar van de jongste klant
 ### Oplossing
 ```
+select max(EXTRACT(YEAR from geboortedatum)) as date_part
+from klanten
 ```
 
 
@@ -77,5 +79,5 @@ Geef het geboortejaar van de jongste klant
 ```
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjc2NzE0MzIsODY3NzcyMDM1XX0=
+eyJoaXN0b3J5IjpbMTAyMDE2NDU5Myw4Njc3NzIwMzVdfQ==
 -->

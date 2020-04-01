@@ -33,8 +33,10 @@ from klanten
 
 
 ## Opgave
+Geef het bedrag van de duurste reis als "duurste"
 ### Oplossing
 ```
+
 ```
 
 
@@ -79,5 +81,5 @@ from klanten
 ```
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMDE2NDU5Myw4Njc3NzIwMzVdfQ==
+eyJoaXN0b3J5IjpbMTgzOTQ3MDA2Nyw4Njc3NzIwMzVdfQ==
 -->

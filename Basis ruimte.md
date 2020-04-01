@@ -45,19 +45,29 @@ from reizen
 Geef van alle reizen die langer dan 400 dagen duurden, een lijst van deelnemers. Output is reisnr, klantnr. Sorteer eerst op reisduur en dan op klantnr
 ### Oplossing
 ```
-
+select reisnr, klantnr
+from reizen
+inner join deelnames using(reisnr)
+where reisduur > 400
+order by reisduur, klantnr
 ```
 
 
 ## Opgave
+Geef de totale verblijfsduur van alle bezoeken samen aan Mars
 ### Oplossing
 ```
+select sum(verblijfsduur)
+from bezoeken
+where objectnaam = 'Mars'
 ```
 
 
 ## Opgave
+Geef het aantal satellieten van Jupiter
 ### Oplossing
 ```
+
 ```
 
 
@@ -84,5 +94,6 @@ Geef van alle reizen die langer dan 400 dagen duurden, een lijst van deelnemers.
 ```
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTczMDY5OSw4Njc3NzIwMzVdfQ==
+eyJoaXN0b3J5IjpbLTEzOTk1MDU5OTIsLTMxNTczMDY5OSw4Nj
+c3NzIwMzVdfQ==
 -->

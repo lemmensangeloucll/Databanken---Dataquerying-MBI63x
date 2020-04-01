@@ -16,7 +16,7 @@ order by naam
 
 ```
 ## Opgave
-
+Bereken voor de klant wiens naam begint met G en eindigt met s hoeveel hij in totaal al besteed heeft aan reizen.
 ### Oplossing
 ```
 
@@ -58,5 +58,5 @@ order by naam
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjg0MjYzOSwxNjM0NjEzMDQxXX0=
+eyJoaXN0b3J5IjpbLTE2MDI1MDI2NCwxNjM0NjEzMDQxXX0=
 -->

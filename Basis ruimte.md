@@ -97,9 +97,11 @@ where satellietvan = 'Saturnus'
 Geef de gemiddelde afstanden tot hun planeet van alle satellieten van Saturnus, afgerond op 2 getallen na de komma
 ### Oplossing
 ```
-
+select round(avg(afstand),2) as "gemiddelde afstand"
+from hemelobjecten
+where satellietvan = 'Saturnus'
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY3MDM2NzQ1LC0zMTU3MzA2OTksODY3Nz
-cyMDM1XX0=
+eyJoaXN0b3J5IjpbLTg2ODY3MTQ5OSwzNjcwMzY3NDUsLTMxNT
+czMDY5OSw4Njc3NzIwMzVdfQ==
 -->

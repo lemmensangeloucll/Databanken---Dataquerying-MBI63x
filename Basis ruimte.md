@@ -12,8 +12,11 @@ order by verblijfsduur desc
 
 
 ## Opgave
+Geef alle hemelobjecten weer met een diameter groter dan 50 en kleiner dan 10000.  
+Sorteer eerst aflopend op diameter en dan alfabetisch op naam
 ### Oplossing
 ```
+
 ```
 
 
@@ -70,5 +73,5 @@ order by verblijfsduur desc
 ```
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NTAzMDEwOV19
+eyJoaXN0b3J5IjpbODY3NzcyMDM1XX0=
 -->

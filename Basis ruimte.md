@@ -77,13 +77,17 @@ where satellietvan = 'Jupiter'
 Geef het aantal satellieten van Jupiter en Saturnus samen
 ### Oplossing
 ```
-
+select count(*)
+from hemelobjecten
+where satellietvan = 'Jupiter' or satellietvan = 'Saturnus'
 ```
 
 
 ## Opgave
+Geef de totale som van alle afstanden tot hun planeet van alle satellieten van Saturnus
 ### Oplossing
 ```
+
 ```
 
 
@@ -98,6 +102,6 @@ Geef het aantal satellieten van Jupiter en Saturnus samen
 ```
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTgyODU5OTMsLTMxNTczMDY5OSw4Nj
-c3NzIwMzVdfQ==
+eyJoaXN0b3J5IjpbLTk3ODI5MSwtMzE1NzMwNjk5LDg2Nzc3Mj
+AzNV19
 -->

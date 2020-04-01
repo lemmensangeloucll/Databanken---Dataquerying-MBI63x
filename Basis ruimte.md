@@ -87,21 +87,19 @@ where satellietvan = 'Jupiter' or satellietvan = 'Saturnus'
 Geef de totale som van alle afstanden tot hun planeet van alle satellieten van Saturnus
 ### Oplossing
 ```
-
+select sum(afstand) as "totale afstand"
+from hemelobjecten
+where satellietvan = 'Saturnus'
 ```
 
 
 ## Opgave
+Geef de gemiddelde afstanden tot hun planeet van alle satellieten van Saturnus, afgerond op 2 getallen na de komma
 ### Oplossing
 ```
-```
 
-
-## Opgave
-### Oplossing
-```
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODI5MSwtMzE1NzMwNjk5LDg2Nzc3Mj
-AzNV19
+eyJoaXN0b3J5IjpbMzY3MDM2NzQ1LC0zMTU3MzA2OTksODY3Nz
+cyMDM1XX0=
 -->

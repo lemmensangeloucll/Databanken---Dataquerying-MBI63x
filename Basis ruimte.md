@@ -67,13 +67,17 @@ where objectnaam = 'Mars'
 Geef het aantal satellieten van Jupiter
 ### Oplossing
 ```
-
+select count(*)
+from hemelobjecten
+where satellietvan = 'Jupiter'
 ```
 
 
 ## Opgave
+Geef het aantal satellieten van Jupiter en Saturnus samen
 ### Oplossing
 ```
+
 ```
 
 
@@ -94,6 +98,6 @@ Geef het aantal satellieten van Jupiter
 ```
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTk1MDU5OTIsLTMxNTczMDY5OSw4Nj
+eyJoaXN0b3J5IjpbLTE3OTgyODU5OTMsLTMxNTczMDY5OSw4Nj
 c3NzIwMzVdfQ==
 -->

@@ -41,8 +41,18 @@ where categorie.naam = 'informatice' and campus.plaats = 'Haasrode'
 ```
 
 ## Vraag 4. Overzicht boeken te laat
+Je mag een ontleend boek 70 dagen bijhouden. Vanaf dag 71 betaal je€0,10 per boek perdag te laat. We willen een lijst met per ontlener de totale boete (gerekend tot op de dag vanvandaag) enkel berekend voor boeken die nog niet teruggebracht zijn. Alleen de mensendie in een gemeente wonen die minstens twee keer de kleine letter ‘a’ bevat mogen in hetoverzicht voorkomen. Zorg dat je ook die ontleners vermeldt die nog nooit een boek ontleendhebben (de totale boete van deze ontleners mag opnullblijven staan). Toon lener_id, naam,gemeente, totale boete in euro, aantal boeken te laat. Sorteert oplopend naar aantal boekente laat. Zorg dat je de tabel van figuur 3 bekomt.
 
+![Figuur 3](https://github.com/lemmensangeloucll/Databanken-Dataquerying-MBI63x/blob/master/img/Figuur3.png)
+
+> **Figuur 3** Lijst met de totale boete per persoon
+
+## Vraag 5. Volgorde bewerkingen
+In welke volgorde worden de SQL-instructies van een query uitgevoerd door de databaseserver? Zorg dat je alle instructies vermeldt die in de lessen aan bod kwamen:SELECT, ...
+
+## Vraag 6. Wat was de vraag?
+Onderstaande query is het antwoord op een bepaalde vraag. Geef zo nauwkeurig mogelijkwat er gevraagd was.selectgemeente ,count(*)from(campus cinner joinexemplaar eon(c.naam = e.campus)inner joinuitlening uon(u.boekcode = e.boekcode ))right outer joinontlener oon(o.lener_id = u.ontlener)andc.naam <>'Campus Gasthuisberg'wherec.naam isnullgroup bygemeente
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3MDQ4NjQ0LC0xNTkxMTQ5NDE1LDk5NT
+eyJoaXN0b3J5IjpbNTIxMDUyNzU3LC0xNTkxMTQ5NDE1LDk5NT
 Y4MzEwOCwtMjE0NTEyMDE1MV19
 -->

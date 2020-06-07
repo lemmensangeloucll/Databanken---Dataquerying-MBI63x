@@ -50,9 +50,24 @@ Je mag een ontleend boek 70 dagen bijhouden. Vanaf dag 71 betaal je€0,10 per b
 ## Vraag 5. Volgorde bewerkingen
 In welke volgorde worden de SQL-instructies van een query uitgevoerd door de databaseserver? Zorg dat je alle instructies vermeldt die in de lessen aan bod kwamen:SELECT, ...
 
+ 1. From
+ 2. Where
+ 3. Group by
+ 4. 
+
 ## Vraag 6. Wat was de vraag?
-Onderstaande query is het antwoord op een bepaalde vraag. Geef zo nauwkeurig mogelijkwat er gevraagd was.selectgemeente ,count(*)from(campus cinner joinexemplaar eon(c.naam = e.campus)inner joinuitlening uon(u.boekcode = e.boekcode ))right outer joinontlener oon(o.lener_id = u.ontlener)andc.naam <>'Campus Gasthuisberg'wherec.naam isnullgroup bygemeente
+Onderstaande query is het antwoord op een bepaalde vraag. Geef zo nauwkeurig mogelijkwat er gevraagd was.
+```
+select gemeente ,count(*)
+from(campus c
+inner join exemplaar eon(c.naam = e.campus)
+inner joinuitlening uon(u.boekcode = e.boekcode ))
+right outer join ontlener o on(o.lener_id = u.ontlener)and c.naam <>'Campus Gasthuisberg'
+where c.naam isnullgroup bygemeente
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxMDUyNzU3LC0xNTkxMTQ5NDE1LDk5NT
-Y4MzEwOCwtMjE0NTEyMDE1MV19
+eyJoaXN0b3J5IjpbMTMwNDE1NTQ3NiwtMTU5MTE0OTQxNSw5OT
+U2ODMxMDgsLTIxNDUxMjAxNTFdfQ==
 -->

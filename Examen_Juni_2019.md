@@ -62,9 +62,9 @@ Je mag een ontleend boek 70 dagen bijhouden. Vanaf dag 71 betaal je€0,10 per b
 
 ### Antwoord
 ```
-SELECT lener_id, naam, gemeente, CASE WHEN DATEDIFF(day, retourdatum, uitleendatum) > 70 THEN 0.1 * DATADIFF(day, retourdatum + 1, GETDATE()) * COUNT(boekcode) END AS "totale boete", COUNT(boekcode) AS "aantal boeken te laat" 
-FROM ontlener 
-LEFT OUTER JOIN uitlening ON lener_id = ontlener 
+select lener_id, naam, gemeente, CASE WHEN DATEDIFF(day, retourdatum, uitleendatum) > 70 THEN 0.1 * DATADIFF(day, retourdatum + 1, GETDATE()) * count(boekcode) END AS "totale boete", count(boekcode) AS "aantal boeken te laat" 
+from ontlener 
+left outer join uitlening ON lener_id = ontlener 
 WHERE gemeentje ILIKE '%a%a%' 
 GROUP BY lener_id 
 HAVING retourdatum IS NULL 
@@ -98,7 +98,7 @@ where c.naam isnullgroup bygemeente
 
 ### Antwoord
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgzMzQzMjY3LDE5ODA5NDI2NjksLTU0Mz
-c5Njg5MywtNjQ4MTkyOTAwLC0xNTkxMTQ5NDE1LDk5NTY4MzEw
-OCwtMjE0NTEyMDE1MV19
+eyJoaXN0b3J5IjpbLTU4MjI5MDgxMyw3ODMzNDMyNjcsMTk4MD
+k0MjY2OSwtNTQzNzk2ODkzLC02NDgxOTI5MDAsLTE1OTExNDk0
+MTUsOTk1NjgzMTA4LC0yMTQ1MTIwMTUxXX0=
 -->

@@ -8,9 +8,13 @@ Een boek heeft een unieke titelcode (zoals een ISBN nummer dat we hier wat veree
 
 ![Database gegevens](https://github.com/lemmensangeloucll/Databanken-Dataquerying-MBI63x/blob/master/img/DBPrint.png)
 ## Vraag 1. Schema aanpassen
+De hoofdbibliothecaris bekijkt je EERD en merkt op dat het eigenlijk wel handig voor hen zouzijn dat ze van elke ontlener weten wat de ‘hoofdbib’ is. Een student die zowel op CampusProximus als op Campus Gasthuisberg lessen volgt, kiest dan bvb. die campusbib waar hij hetmeest komt. Elke ontlener moet verplicht zo’n hoofdbib hebben. De student kan natuurlijkwel verder boeken blijven ontlenen van elke campus.
 
+ 1. Teken op het schema op de vorige pagina een efficiënte uitbreiding die deze opmerkingimplementeert.
+ 2. Welke regel(s) code moet je toevoegen aan de CREATE SQL statements bij het aanmaken van alle tabellen? Geef de regel(s) + vermeld duidelijk in welke tabel(len) je de aanpassing doet.
+ 3. Geef één voorbeeld van een INSERT statement voor de gewijzigde tabel(len).
 
-
+## V
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MDAxOTg3OCwtMjE0NTEyMDE1MV19
+eyJoaXN0b3J5IjpbMTI5ODg3NDA5NCwtMjE0NTEyMDE1MV19
 -->

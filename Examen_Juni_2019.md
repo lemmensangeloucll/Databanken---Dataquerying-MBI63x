@@ -61,6 +61,8 @@ Antwoord
 ## Vraag 5. Volgorde bewerkingen
 In welke volgorde worden de SQL-instructies van een query uitgevoerd door de databaseserver? Zorg dat je alle instructies vermeldt die in de lessen aan bod kwamen:SELECT, ...
 
+### Antwoord
+
  1. From
  2. Where
  3. Group by
@@ -81,8 +83,8 @@ right outer join ontlener o on(o.lener_id = u.ontlener)and c.naam <>'Campus Gast
 where c.naam isnullgroup bygemeente
 ```
 
-
+### Antwoord
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTQ4MjUyNiwtMTU5MTE0OTQxNSw5OT
+eyJoaXN0b3J5IjpbLTY0ODE5MjkwMCwtMTU5MTE0OTQxNSw5OT
 U2ODMxMDgsLTIxNDUxMjAxNTFdfQ==
 -->

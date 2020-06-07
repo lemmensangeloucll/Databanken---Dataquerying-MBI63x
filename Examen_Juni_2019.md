@@ -30,7 +30,7 @@ inner join boek using(titelcode)
 inner join uitgeverij on boek.uitgever = uitgeverij.uitgeverij_id
 where exemplaar.campus = 'Gasthuisberg' and aanschafdatum < '2017-10-25' 
 group by uitgeverij.uitgeverij_id
-order by uitgeverij.naam ASC
+order by count(exemplaar.boekcode) ASC
 limit 1
 ```
 
@@ -92,6 +92,7 @@ where c.naam isnullgroup bygemeente
 
 ### Antwoord
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0Mzc5Njg5MywtNjQ4MTkyOTAwLC0xNT
-kxMTQ5NDE1LDk5NTY4MzEwOCwtMjE0NTEyMDE1MV19
+eyJoaXN0b3J5IjpbMTk4MDk0MjY2OSwtNTQzNzk2ODkzLC02ND
+gxOTI5MDAsLTE1OTExNDk0MTUsOTk1NjgzMTA4LC0yMTQ1MTIw
+MTUxXX0=
 -->

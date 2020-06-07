@@ -28,10 +28,10 @@ De opleiding ‘Toegepaste informatica’ verhuist volgend academiejaar van de c
 
 ![Figuur 2](https://github.com/lemmensangeloucll/Databanken-Dataquerying-MBI63x/blob/master/img/Figuur2.png)
 
-> **Figuur 2 ** Alle exemplaren met categorie ‘informatica’ in de campusbib die in Haasrode gelegen is
+> **Figuur 2** Alle exemplaren met categorie ‘informatica’ in de campusbib die in Haasrode gelegen is
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzc1OTMyMjcsOTk1NjgzMTA4LC0yMT
+eyJoaXN0b3J5IjpbLTE1OTExNDk0MTUsOTk1NjgzMTA4LC0yMT
 Q1MTIwMTUxXX0=
 -->

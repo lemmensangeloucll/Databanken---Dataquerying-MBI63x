@@ -13,7 +13,9 @@ De hoofdbibliothecaris bekijkt je EERD en merkt op dat het eigenlijk wel handig 
  1. Teken op het schema op de vorige pagina een efficiënte uitbreiding die deze opmerkingimplementeert.
  2. Welke regel(s) code moet je toevoegen aan de CREATE SQL statements bij het aanmaken van alle tabellen? Geef de regel(s) + vermeld duidelijk in welke tabel(len) je de aanpassing doet.
  3. Geef één voorbeeld van een INSERT statement voor de gewijzigde tabel(len).
-
+ ```
+ 
+ ```
 ## Vraag 2. Populairste uitgeverij
 Van welke uitgeverij hadden we de meeste boek-exemplaren in de bib van campus Gasthuis-berg op 25-10-2017? Figuur 1 toont de uitvoer voor onze databank.
 
@@ -98,7 +100,7 @@ where c.naam isnullgroup bygemeente
 
 ### Antwoord
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMzgyNjU1NCw3ODMzNDMyNjcsMTk4MD
-k0MjY2OSwtNTQzNzk2ODkzLC02NDgxOTI5MDAsLTE1OTExNDk0
-MTUsOTk1NjgzMTA4LC0yMTQ1MTIwMTUxXX0=
+eyJoaXN0b3J5IjpbNDI5NDExOTU0LDc4MzM0MzI2NywxOTgwOT
+QyNjY5LC01NDM3OTY4OTMsLTY0ODE5MjkwMCwtMTU5MTE0OTQx
+NSw5OTU2ODMxMDgsLTIxNDUxMjAxNTFdfQ==
 -->

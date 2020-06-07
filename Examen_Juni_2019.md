@@ -24,7 +24,14 @@ Van welke uitgeverij hadden we de meeste boek-exemplaren in de bib van campus Ga
 
 ## Vraag 3. Alle IT-exemplaren op plaats 'Haasrode'
 De opleiding ‘Toegepaste informatica’ verhuist volgend academiejaar van de campus metlocatie ‘Haasrode’ naar een andere plaats. Daarom is het nodig om een inventaris op temaken van alle exemplaren met categorienaam ‘informatica’ in Haasrode. Resultaat dat moetgetoond worden: enkel de boekcode en de categorie, fig 2.
+
+
+![Figuur 2](https://github.com/lemmensangeloucll/Databanken-Dataquerying-MBI63x/blob/master/img/Figuur2.png)
+
+> **Figuur 2 ** Alle exemplaren met categorie ‘informatica’ in de campusbib die in Haasrode gelegen is
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODUzNjU4Nyw5OTU2ODMxMDgsLTIxND
-UxMjAxNTFdfQ==
+eyJoaXN0b3J5IjpbLTE1Nzc1OTMyMjcsOTk1NjgzMTA4LC0yMT
+Q1MTIwMTUxXX0=
 -->

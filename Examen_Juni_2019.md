@@ -24,7 +24,11 @@ Van welke uitgeverij hadden we de meeste boek-exemplaren in de bib van campus Ga
 
 ### Antwoord
 ```
-Antwoord
+select uigeverij.naam
+from exemplaar
+inner join boek using(titelcode)
+inner join uitgeverij on boek.uitgever = uitgeverij.uitgeverij_id
+where exemplaar.campus = 'Gasthuisberg'
 ```
 
 ## Vraag 3. Alle IT-exemplaren op plaats 'Haasrode'
@@ -85,6 +89,6 @@ where c.naam isnullgroup bygemeente
 
 ### Antwoord
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODE5MjkwMCwtMTU5MTE0OTQxNSw5OT
-U2ODMxMDgsLTIxNDUxMjAxNTFdfQ==
+eyJoaXN0b3J5IjpbLTEzMTE5ODU2MjksLTY0ODE5MjkwMCwtMT
+U5MTE0OTQxNSw5OTU2ODMxMDgsLTIxNDUxMjAxNTFdfQ==
 -->

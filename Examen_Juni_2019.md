@@ -22,6 +22,11 @@ Van welke uitgeverij hadden we de meeste boek-exemplaren in de bib van campus Ga
 
 > **Figuur 1** Van deze uitgeverij hadden we op 25-10-2017 het meeste exemplaren
 
+### Antwoord
+```
+Antwoord
+```
+
 ## Vraag 3. Alle IT-exemplaren op plaats 'Haasrode'
 De opleiding ‘Toegepaste informatica’ verhuist volgend academiejaar van de campus metlocatie ‘Haasrode’ naar een andere plaats. Daarom is het nodig om een inventaris op temaken van alle exemplaren met categorienaam ‘informatica’ in Haasrode. Resultaat dat moetgetoond worden: enkel de boekcode en de categorie, fig 2.
 
@@ -30,6 +35,7 @@ De opleiding ‘Toegepaste informatica’ verhuist volgend academiejaar van de c
 
 > **Figuur 2** Alle exemplaren met categorie ‘informatica’ in de campusbib die in Haasrode gelegen is
 
+### Antwoord
 ```
 select exemplaar.boekcode, categorie.naam
 from exemplaar
@@ -47,13 +53,22 @@ Je mag een ontleend boek 70 dagen bijhouden. Vanaf dag 71 betaal je€0,10 per b
 
 > **Figuur 3** Lijst met de totale boete per persoon
 
+### Antwoord
+```
+Antwoord
+```
+
 ## Vraag 5. Volgorde bewerkingen
 In welke volgorde worden de SQL-instructies van een query uitgevoerd door de databaseserver? Zorg dat je alle instructies vermeldt die in de lessen aan bod kwamen:SELECT, ...
 
  1. From
  2. Where
  3. Group by
- 4. 
+ 4. Having
+ 5. Select
+ 6. Distinct
+ 7. Order by
+ 8. Limit/offset
 
 ## Vraag 6. Wat was de vraag?
 Onderstaande query is het antwoord op een bepaalde vraag. Geef zo nauwkeurig mogelijkwat er gevraagd was.
@@ -68,6 +83,6 @@ where c.naam isnullgroup bygemeente
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNDE1NTQ3NiwtMTU5MTE0OTQxNSw5OT
+eyJoaXN0b3J5IjpbMTMwMTQ4MjUyNiwtMTU5MTE0OTQxNSw5OT
 U2ODMxMDgsLTIxNDUxMjAxNTFdfQ==
 -->

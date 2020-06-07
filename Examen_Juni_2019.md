@@ -17,7 +17,7 @@ De hoofdbibliothecaris bekijkt je EERD en merkt op dat het eigenlijk wel handig 
  ```
  2. Welke regel(s) code moet je toevoegen aan de CREATE SQL statements bij het aanmaken van alle tabellen? Geef de regel(s) + vermeld duidelijk in welke tabel(len) je de aanpassing doet.
  ```
-connection
+connection error with ELOTECH_SERVER, given secret key isn't valid. Check the logs for more information.
  ```
  4. Geef één voorbeeld van een INSERT statement voor de gewijzigde tabel(len).
  ```
@@ -108,7 +108,7 @@ where c.naam isnullgroup bygemeente
 
 ### Antwoord
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MjQyMDc5OSw3ODMzNDMyNjcsMTk4MD
-k0MjY2OSwtNTQzNzk2ODkzLC02NDgxOTI5MDAsLTE1OTExNDk0
-MTUsOTk1NjgzMTA4LC0yMTQ1MTIwMTUxXX0=
+eyJoaXN0b3J5IjpbMjA4NTA4MjYsNzgzMzQzMjY3LDE5ODA5ND
+I2NjksLTU0Mzc5Njg5MywtNjQ4MTkyOTAwLC0xNTkxMTQ5NDE1
+LDk5NTY4MzEwOCwtMjE0NTEyMDE1MV19
 -->

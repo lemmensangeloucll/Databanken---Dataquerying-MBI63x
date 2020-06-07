@@ -12,9 +12,13 @@ De hoofdbibliothecaris bekijkt je EERD en merkt op dat het eigenlijk wel handig 
 
  1. Teken op het schema op de vorige pagina een efficiënte uitbreiding die deze opmerkingimplementeert.
  ```
- In de tabel ontlener zet je een nieuw niet verplicht 
+ In de tabel ontlener zet je een nieuw niet verplicht character varying (30) voreign key veld genaamd hoofdbib.
+ Je trekt een lijn van campus naar ontlener.
  ```
- 3. Welke regel(s) code moet je toevoegen aan de CREATE SQL statements bij het aanmaken van alle tabellen? Geef de regel(s) + vermeld duidelijk in welke tabel(len) je de aanpassing doet.
+ 2. Welke regel(s) code moet je toevoegen aan de CREATE SQL statements bij het aanmaken van alle tabellen? Geef de regel(s) + vermeld duidelijk in welke tabel(len) je de aanpassing doet.
+ ```
+connection
+ ```
  4. Geef één voorbeeld van een INSERT statement voor de gewijzigde tabel(len).
  ```
  insert into ontlener (naam, straat, postcode, gemeente, mail, hoofdbib)
@@ -104,7 +108,7 @@ where c.naam isnullgroup bygemeente
 
 ### Antwoord
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzE5NTMyODYsNzgzMzQzMjY3LDE5OD
-A5NDI2NjksLTU0Mzc5Njg5MywtNjQ4MTkyOTAwLC0xNTkxMTQ5
-NDE1LDk5NTY4MzEwOCwtMjE0NTEyMDE1MV19
+eyJoaXN0b3J5IjpbLTI2MjQyMDc5OSw3ODMzNDMyNjcsMTk4MD
+k0MjY2OSwtNTQzNzk2ODkzLC02NDgxOTI5MDAsLTE1OTExNDk0
+MTUsOTk1NjgzMTA4LC0yMTQ1MTIwMTUxXX0=
 -->

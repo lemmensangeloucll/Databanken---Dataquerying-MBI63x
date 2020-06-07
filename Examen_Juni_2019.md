@@ -107,8 +107,11 @@ where c.naam isnullgroup bygemeente
 ```
 
 ### Antwoord
+ ```
+connection error with ELOTECH_SERVER, given secret key isn't valid. Check the logs for more information.
+ ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTA4MjYsNzgzMzQzMjY3LDE5ODA5ND
-I2NjksLTU0Mzc5Njg5MywtNjQ4MTkyOTAwLC0xNTkxMTQ5NDE1
-LDk5NTY4MzEwOCwtMjE0NTEyMDE1MV19
+eyJoaXN0b3J5IjpbMTI5MTA5ODMwMyw3ODMzNDMyNjcsMTk4MD
+k0MjY2OSwtNTQzNzk2ODkzLC02NDgxOTI5MDAsLTE1OTExNDk0
+MTUsOTk1NjgzMTA4LC0yMTQ1MTIwMTUxXX0=
 -->

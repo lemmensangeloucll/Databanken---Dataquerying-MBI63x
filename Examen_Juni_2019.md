@@ -22,7 +22,9 @@ Van welke uitgeverij hadden we de meeste boek-exemplaren in de bib van campus Ga
 
 > **Figuur 1** Van deze uitgeverij hadden we op 25-10-2017 het meeste exemplaren
 
+## Vraag 3. Alle IT-exemplaren op plaats 'Haasrode'
+De opleiding ‘Toegepaste informatica’ verhuist volgend academiejaar van de campus metlocatie ‘Haasrode’ naar een andere plaats. Daarom is het nodig om een inventaris op temaken van alle exemplaren met categorienaam ‘informatica’ in Haasrode. Resultaat dat moetgetoond worden: enkel de boekcode en de categorie, fig 2.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTc0MzkxOCw5OTU2ODMxMDgsLTIxND
+eyJoaXN0b3J5IjpbMTQ5ODUzNjU4Nyw5OTU2ODMxMDgsLTIxND
 UxMjAxNTFdfQ==
 -->

@@ -17,7 +17,8 @@ De hoofdbibliothecaris bekijkt je EERD en merkt op dat het eigenlijk wel handig 
 ## Vraag 2. Populairste uitgeverij
 Van welke uitgeverij hadden we de meeste boek-exemplaren in de bib van campus Gasthuis-berg op 25-10-2017? Figuur 1 toont de uitvoer voor onze databank.
 ![Figuur 1](https://github.com/lemmensangeloucll/Databanken-Dataquerying-MBI63x/blob/master/img/Figuur1.png)
-> **Figuur 1** Van deze uitgeverij hadden we op 25-10-2017 he
+> **Figuur 1** Van deze uitgeverij hadden we op 25-10-2017 het meeste exemplaren
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTc5MTIwLC0yMTQ1MTIwMTUxXX0=
+eyJoaXN0b3J5IjpbOTk1NjgzMTA4LC0yMTQ1MTIwMTUxXX0=
 -->

@@ -28,9 +28,8 @@ select uigeverij.naam
 from exemplaar
 inner join boek using(titelcode)
 inner join uitgeverij on boek.uitgever = uitgeverij.uitgeverij_id
-where exemplaar.campus = 'Gasthuisberg' 
+where exemplaar.campus = 'Gasthuisberg'
 	and CURRENT_DATE = '2017-10-25' 
-	and 
 ```
 
 ## Vraag 3. Alle IT-exemplaren op plaats 'Haasrode'
@@ -91,6 +90,6 @@ where c.naam isnullgroup bygemeente
 
 ### Antwoord
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3MDkzOTYyLC02NDgxOTI5MDAsLTE1OT
-ExNDk0MTUsOTk1NjgzMTA4LC0yMTQ1MTIwMTUxXX0=
+eyJoaXN0b3J5IjpbLTE0ODc0OTM0ODksLTY0ODE5MjkwMCwtMT
+U5MTE0OTQxNSw5OTU2ODMxMDgsLTIxNDUxMjAxNTFdfQ==
 -->

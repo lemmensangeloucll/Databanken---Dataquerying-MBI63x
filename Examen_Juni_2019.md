@@ -30,9 +30,15 @@ De opleiding ‘Toegepaste informatica’ verhuist volgend academiejaar van de c
 
 > **Figuur 2** Alle exemplaren met categorie ‘informatica’ in de campusbib die in Haasrode gelegen is
 
-
+```
+select exemplaar.boekcode, categorie.naam
+from exemplaar
+inner join boek using(titelcode)
+inner join boek_heeft_categorie on boek.titelcode = boek_heeft_categorie.boek
+inner join
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzM1NTI3MSwtMTU5MTE0OTQxNSw5OT
+eyJoaXN0b3J5IjpbLTM0MDE1MzM0NywtMTU5MTE0OTQxNSw5OT
 U2ODMxMDgsLTIxNDUxMjAxNTFdfQ==
 -->

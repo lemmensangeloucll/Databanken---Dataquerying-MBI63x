@@ -35,10 +35,14 @@ select exemplaar.boekcode, categorie.naam
 from exemplaar
 inner join boek using(titelcode)
 inner join boek_heeft_categorie on boek.titelcode = boek_heeft_categorie.boek
-inner join
+inner join categorie on boek_heeft_categorie.categorie = categorie.code
+inner join campus on exemplaar.campus = campus.naam
+where categorie.naam = 'informatice' and campus.plaats = 'Haasrode'
 ```
 
+## Vraag 4. Overzicht boeken te laat
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MDE1MzM0NywtMTU5MTE0OTQxNSw5OT
-U2ODMxMDgsLTIxNDUxMjAxNTFdfQ==
+eyJoaXN0b3J5IjpbMzA3MDQ4NjQ0LC0xNTkxMTQ5NDE1LDk5NT
+Y4MzEwOCwtMjE0NTEyMDE1MV19
 -->

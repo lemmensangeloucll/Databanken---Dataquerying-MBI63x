@@ -11,11 +11,14 @@ Een boek heeft een unieke titelcode (zoals een ISBN nummer dat we hier wat veree
 De hoofdbibliothecaris bekijkt je EERD en merkt op dat het eigenlijk wel handig voor hen zouzijn dat ze van elke ontlener weten wat de ‘hoofdbib’ is. Een student die zowel op CampusProximus als op Campus Gasthuisberg lessen volgt, kiest dan bvb. die campusbib waar hij hetmeest komt. Elke ontlener moet verplicht zo’n hoofdbib hebben. De student kan natuurlijkwel verder boeken blijven ontlenen van elke campus.
 
  1. Teken op het schema op de vorige pagina een efficiënte uitbreiding die deze opmerkingimplementeert.
- 2. Welke regel(s) code moet je toevoegen aan de CREATE SQL statements bij het aanmaken van alle tabellen? Geef de regel(s) + vermeld duidelijk in welke tabel(len) je de aanpassing doet.
- 3. Geef één voorbeeld van een INSERT statement voor de gewijzigde tabel(len).
+ ```
+ In de tabel ontlener zet je een nieuw niet verplicht 
+ ```
+ 3. Welke regel(s) code moet je toevoegen aan de CREATE SQL statements bij het aanmaken van alle tabellen? Geef de regel(s) + vermeld duidelijk in welke tabel(len) je de aanpassing doet.
+ 4. Geef één voorbeeld van een INSERT statement voor de gewijzigde tabel(len).
  ```
  insert into ontlener (naam, straat, postcode, gemeente, mail, hoofdbib)
- values('Angelo Lemmens', 'Kapucijnenvoer 12 bus 0102', 3000, 'Leuven','lemm
+ values('Angelo Lemmens', 'Windstraat 43', 3020, 'Bergen','angelolemmens@hotmail.com', 'Campus Proximus')
  ```
 ## Vraag 2. Populairste uitgeverij
 Van welke uitgeverij hadden we de meeste boek-exemplaren in de bib van campus Gasthuis-berg op 25-10-2017? Figuur 1 toont de uitvoer voor onze databank.
@@ -101,7 +104,7 @@ where c.naam isnullgroup bygemeente
 
 ### Antwoord
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkxNzMwMjYzLDc4MzM0MzI2NywxOTgwOT
-QyNjY5LC01NDM3OTY4OTMsLTY0ODE5MjkwMCwtMTU5MTE0OTQx
-NSw5OTU2ODMxMDgsLTIxNDUxMjAxNTFdfQ==
+eyJoaXN0b3J5IjpbLTE0MzE5NTMyODYsNzgzMzQzMjY3LDE5OD
+A5NDI2NjksLTU0Mzc5Njg5MywtNjQ4MTkyOTAwLC0xNTkxMTQ5
+NDE1LDk5NTY4MzEwOCwtMjE0NTEyMDE1MV19
 -->

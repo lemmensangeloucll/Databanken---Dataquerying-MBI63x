@@ -100,10 +100,11 @@ Onderstaande query is het antwoord op een bepaalde vraag. Geef zo nauwkeurig mog
 ```
 select gemeente ,count(*)
 from(campus c
-inner join exemplaar eon(c.naam = e.campus)
-inner joinuitlening uon(u.boekcode = e.boekcode ))
-right outer join ontlener o on(o.lener_id = u.ontlener)and c.naam <>'Campus Gasthuisberg'
-where c.naam isnullgroup bygemeente
+inner join exemplaar e on(c.naam = e.campus)
+inner join uitlening u on(u.boekcode = e.boekcode ))
+right outer join ontlener o on(o.lener_id = u.ontlener) and c.naam <>'Campus Gasthuisberg'
+where c.naam is null
+group by gemeente
 ```
 
 ### Antwoord
@@ -111,7 +112,8 @@ where c.naam isnullgroup bygemeente
 connection error with ELOTECH_SERVER, given secret key isn't valid. Check the logs for more information.
  ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MTA5ODMwMyw3ODMzNDMyNjcsMTk4MD
-k0MjY2OSwtNTQzNzk2ODkzLC02NDgxOTI5MDAsLTE1OTExNDk0
-MTUsOTk1NjgzMTA4LC0yMTQ1MTIwMTUxXX0=
+eyJoaXN0b3J5IjpbLTIwMDg0NjMxOTcsMTI5MTA5ODMwMyw3OD
+MzNDMyNjcsMTk4MDk0MjY2OSwtNTQzNzk2ODkzLC02NDgxOTI5
+MDAsLTE1OTExNDk0MTUsOTk1NjgzMTA4LC0yMTQ1MTIwMTUxXX
+0=
 -->
